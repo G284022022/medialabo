@@ -1,0 +1,22 @@
+h1{
+    color:rgb(92, 98, 209);
+ 
+ }
+ label{
+     font-size: larger;
+     color:rgb(12, 1, 19);  
+ }
+ table {
+     table-layout: fixed;
+     width: 100%;
+     border-collapse: collapse;
+ }
+ caption{
+     color:rgb(46, 106, 154);
+     font-size: 2.0rem;
+ }
+ body{ 
+     background:#31a560; 
+     height: 200px;
+     text-align: center;
+ }

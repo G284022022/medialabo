@@ -4,16 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>プロジェクト課題:世界の天気</title>
+    <link rel="stylesheet" href="project.css">
+    <script src="project.js" defer=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    
 </head>
-<body>
-    <h1>世界の天気</h1>
-    <li>360630 ... Cairo カイロ （エジプト）</li>
-	<li>524901 ... Moscow モスクワ （ロシア）</li>
-	<li>993800 ... Johannesburg ヨハネスブルク （南アフリカ）</li>
-    <li>1816670 ... Beijing 北京 （中華人民共和国）</li>
-    <li>1850147 ... Tokyo 東京 （日本）</li>
-    <li>1880252 ... Singapore シンガポール</li>
-    <li>2147714 ... Sydney シドニー （オーストラリア）</li>
-</body>
+<body><body>
+    <h1 align="center"><strong>プロジェクト課題:世界の天気</strong></h1>
+    <label for="kuni">世界都市の名前を選んでください</label>
+    <select name="kuni" id="kuni">
+        <option value="kuni">都市を選んでください</option>
+        <option value="Beijing" id="1816670">北京</option>
+        <option value="Cairo" id="360630">カイロ</option>
+        <option value="Moscow" id="524901">モスクワ</option>
+        <option value="Johannesburg" id="993800">ヨハネスブルク</option>
+        <option value="Tokyo" id="1850147">東京</option>
+        <option value="Singapore" id="1880252">シンガポール</option>
+        <option value="Sydney" id="2147714">シドニー</option>
+        <option value="London" id="2643743">ロンドン</option>
+        <option value="Paris" id="2968815">パリ</option>
+        <option value="Rio de Janeiro" id="3451189">リオデジャネイロ</option>
+        <option value="New York" id="5128581">ニューヨーク</option>
+        <option value="Los Angeles" id="5368361">ロサンゼルス</option>
+    </select>
+    <button id="btn">検索天気</button>
+    <table>
+    <caption class="toshi">シドニー</caption>
+    <tbody>
+      <tr>
+        <th>緯度</th>
+        <td class="lat">-33.8679</td>
+      </tr>
+      <tr>
+        <th>経度</th>
+        <td class="lon">151.2073</td>
+      </tr>
+      <tr>
+        <th>天気</th>
+        <td class="weather">小雨</td>
+      </tr>
+      <tr>
+        <th>最低気温</th>
+        <td class="temp_min">21.31</td>
+      </tr>
+      <tr>
+         <th>最高気温</th>
+         <td class="temp_max">24.23</td>
+      </tr>
+      <tr>
+        <th>湿度</th>
+        <td class="humidity">93</td>
+      </tr>
+      <tr>
+        <th>風速</th>
+        <td class="speed">2.24</td>
+      </tr>
+      <tr>
+        <th>風向</th>
+        <td class="deg">179</td>
+      </tr>
+    </tbody>
+    </table>
+    
+    </body>
 </html>
